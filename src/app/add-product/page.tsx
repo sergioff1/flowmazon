@@ -1,5 +1,5 @@
 import FormSubmitBtn from '@/components/FormSubmitBtn'
-import prisma from '@/lib/db/prisma'
+import {prisma} from '@/lib/db/prisma'
 import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
 import { authOptions } from '../api/auth/[...nextauth]/route'
